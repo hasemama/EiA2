@@ -1,4 +1,13 @@
-1.1
-Der Unterschied ist, dass homogene Arrays nur Objekte eines Types annehmen. Erzeuge ich ein string Array und möchte z.B 1 einfügen
-wird "java.lang.ArrayStoreException" erzeugt
-Bei heterogenen Arrays kann ich sowohl einen String wie "a", als auch ein 1 hinzufügen
+1. Homogene Arrays können nur einen Datenytypen speichern
+ Heterogene dagegen mehrere.
+2.Keine Ahnung
+3. Die Eigenschaften des Objekts werden willkürlich durchlaufen
+	key=Variable
+	query = Objekt dessen Eigenschaft durchlaufen wird
+4.Ist eine Freigabeeinstellung
+	--> Inhalte werden hierbei allen zur Verfügung gestellt
+5.Damit werden Daten vom Server und Nutzer ausgetauscht, ohne dass die Seite neu geladen werden muss.
+So kann die Seite verändert werden, ohne neu geladen werden zu müssen
+
+6.Wie in A5 beschrieben können mit Ajax Daten dem Server gesendet werden bzw. er kann diese erhalten
+ohne die Seite neu laden zu müssen
