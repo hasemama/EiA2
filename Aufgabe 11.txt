@@ -1,3 +1,4 @@
+1.1
 Der Unterschied ist, dass homogene Arrays nur Objekte eines Types annehmen. Erzeuge ich ein string Array und möchte z.B 1 einfügen
 wird "java.lang.ArrayStoreException" erzeugt
 Bei heterogenen Arrays kann ich sowohl einen String wie "a", als auch ein 1 hinzufügen
