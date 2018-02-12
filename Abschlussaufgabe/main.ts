@@ -28,13 +28,9 @@ namespace Abschlussaufgabe {
         crc2.fill();
 
 
-
-
-
-        for (let i: number = 0; i < n; i++) {
-            let s: Ski = new Ski(0, 0, "#0000ff", Math.random() * 2 + 5, Math.random() * 2 + 5);
-            object.push(s);
-            let t: Baum = new Baum(50 + Math.random() * 170, 200 + Math.random() * 150);
+      for (let i: number = 0; i < n; i++) {
+         
+            let t: Baum = new Baum(Math.random()*300, Math.random() * 600);
             object.push(t);
             let w: Wolken = new Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
             object.push(w);
