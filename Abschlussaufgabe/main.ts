@@ -22,27 +22,11 @@ namespace Abschlussaufgabe {
         crc2.fillStyle = "#5CACEE";
         crc2.fillRect(0, 0, 800, 600);
 
-        //Be    
-        crc2.beginPath();
-        crc2.moveTo(150, 112);
-        crc2.lineTo(200, 50);
-        crc2.lineTo(750, 562);
-        crc2.closePath();
-        crc2.strokeStyle = "#c2c2c2";
-        crc2.stroke();
-        crc2.fillStyle = "#c2c2c2";
-        crc2.fill();
+        //Gras
+        crc2.fillStyle = "green";
+        crc2.fillRect(0, 200, 800, 400);
 
-        //Piste
-        crc2.beginPath();
-        crc2.moveTo(0, 0);
-        crc2.lineTo(800, 600);
-        crc2.lineTo(0, 600);
-        crc2.closePath();
-        crc2.strokeStyle = "#FFFFFF";
-        crc2.stroke();
-        crc2.fillStyle = "#FFFFFF";
-        crc2.fill();
+
 
 
         //Sonne
@@ -52,113 +36,25 @@ namespace Abschlussaufgabe {
         crc2.fill();
 
 
-        //Lift
-        crc2.beginPath();
-        crc2.moveTo(250, 0);
-        crc2.lineTo(1050, 600);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-
-        crc2.beginPath();
-        crc2.moveTo(260, 8);
-        crc2.lineTo(110, 210);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-
-        crc2.beginPath();
-        crc2.moveTo(505, 190);
-        crc2.lineTo(355, 392);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-
-        crc2.beginPath();
-        crc2.moveTo(700, 338);
-        crc2.lineTo(550, 540);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-
-        //Liftsitze
-        crc2.beginPath();
-        crc2.moveTo(300, 38);
-        crc2.lineTo(275, 70);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-
-        crc2.beginPath();
-        crc2.moveTo(275, 70);
-        crc2.lineTo(295, 85);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-
-        crc2.beginPath();
-        crc2.moveTo(650, 300);
-        crc2.lineTo(625, 332);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-
-        crc2.beginPath();
-        crc2.moveTo(625, 332);
-        crc2.lineTo(605, 317);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
 
 
+        for (let i: number = 0; i < 50; i++) {
 
-        //Schnemann 
-        crc2.beginPath();
-        crc2.arc(500, 550, 40, 0, 2 * Math.PI);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-        crc2.fillStyle = "#DCDCDC";
-        crc2.fill();
-
-        crc2.beginPath();
-        crc2.arc(500, 480, 30, 0, 2 * Math.PI);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-        crc2.fillStyle = "#DCDCDC";
-        crc2.fill();
-
-        crc2.beginPath();
-        crc2.arc(500, 430, 20, 0, 2 * Math.PI);
-        crc2.strokeStyle = "##000000";
-        crc2.stroke();
-        crc2.fillStyle = "##DCDCDC";
-        crc2.fill();
-
-        //Augen Schneemann
-        crc2.beginPath();
-        crc2.arc(495, 430, 2, 0, 2 * Math.PI);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-        crc2.fillStyle = "#000000";
-        crc2.fill();
-
-        crc2.beginPath();
-        crc2.arc(510, 430, 2, 0, 2 * Math.PI);
-        crc2.strokeStyle = "#000000";
-        crc2.stroke();
-        crc2.fillStyle = "#000000";
-        crc2.fill();
-
-
-
-
-        for (let i: number = 0; i < n; i++) {
-            let s: Ski = new Ski(0, 0, "#0000ff", Math.random() * 2 + 5, Math.random() * 2 + 5);
-            object.push(s);
-            let t: Baum = new Baum(50 + Math.random() * 170, 200 + Math.random() * 150);
+            let t: Baum = new Baum(Math.random() * 350, Math.random() * 400);
             object.push(t);
-            let w: Wolken = new Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
-            object.push(w);
+            // let w: Wolken = new Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
+            // object.push(w);
 
         }
-        let m: number = 150;
-        for (let i: number = 0; i < m; i++) {
-            let sn: Snow = new Snow(0 + Math.random() * 800, 0 + Math.random() * 600);
-            object.push(sn);
+        for (let i: number = 0; i < 50; i++) {
+
+            let t: Baum = new Baum(350 + Math.random() * 350, Math.random() * 400);
+            object.push(t);
+            // let w: Wolken = new Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
+            // object.push(w);
 
         }
+
         img = crc2.getImageData(0, 0, 800, 600);
         console.log(img);
         animate();

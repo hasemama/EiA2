@@ -17,117 +17,21 @@ var Abschlussaufgabe;
         //Himmel
         Abschlussaufgabe.crc2.fillStyle = "#5CACEE";
         Abschlussaufgabe.crc2.fillRect(0, 0, 800, 600);
-        //Be    
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(150, 112);
-        Abschlussaufgabe.crc2.lineTo(200, 50);
-        Abschlussaufgabe.crc2.lineTo(750, 562);
-        Abschlussaufgabe.crc2.closePath();
-        Abschlussaufgabe.crc2.strokeStyle = "#c2c2c2";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.fillStyle = "#c2c2c2";
-        Abschlussaufgabe.crc2.fill();
-        //Piste
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(0, 0);
-        Abschlussaufgabe.crc2.lineTo(800, 600);
-        Abschlussaufgabe.crc2.lineTo(0, 600);
-        Abschlussaufgabe.crc2.closePath();
-        Abschlussaufgabe.crc2.strokeStyle = "#FFFFFF";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.fillStyle = "#FFFFFF";
-        Abschlussaufgabe.crc2.fill();
+        //Gras
+        Abschlussaufgabe.crc2.fillStyle = "green";
+        Abschlussaufgabe.crc2.fillRect(0, 200, 800, 400);
         //Sonne
         Abschlussaufgabe.crc2.beginPath();
         Abschlussaufgabe.crc2.arc(695, 60, 40, 0, 2 * Math.PI);
         Abschlussaufgabe.crc2.fillStyle = "#FFD700";
         Abschlussaufgabe.crc2.fill();
-        //Lift
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(250, 0);
-        Abschlussaufgabe.crc2.lineTo(1050, 600);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(260, 8);
-        Abschlussaufgabe.crc2.lineTo(110, 210);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(505, 190);
-        Abschlussaufgabe.crc2.lineTo(355, 392);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(700, 338);
-        Abschlussaufgabe.crc2.lineTo(550, 540);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        //Liftsitze
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(300, 38);
-        Abschlussaufgabe.crc2.lineTo(275, 70);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(275, 70);
-        Abschlussaufgabe.crc2.lineTo(295, 85);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(650, 300);
-        Abschlussaufgabe.crc2.lineTo(625, 332);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.moveTo(625, 332);
-        Abschlussaufgabe.crc2.lineTo(605, 317);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        //Schnemann 
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.arc(500, 550, 40, 0, 2 * Math.PI);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.fillStyle = "#DCDCDC";
-        Abschlussaufgabe.crc2.fill();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.arc(500, 480, 30, 0, 2 * Math.PI);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.fillStyle = "#DCDCDC";
-        Abschlussaufgabe.crc2.fill();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.arc(500, 430, 20, 0, 2 * Math.PI);
-        Abschlussaufgabe.crc2.strokeStyle = "##000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.fillStyle = "##DCDCDC";
-        Abschlussaufgabe.crc2.fill();
-        //Augen Schneemann
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.arc(495, 430, 2, 0, 2 * Math.PI);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.fillStyle = "#000000";
-        Abschlussaufgabe.crc2.fill();
-        Abschlussaufgabe.crc2.beginPath();
-        Abschlussaufgabe.crc2.arc(510, 430, 2, 0, 2 * Math.PI);
-        Abschlussaufgabe.crc2.strokeStyle = "#000000";
-        Abschlussaufgabe.crc2.stroke();
-        Abschlussaufgabe.crc2.fillStyle = "#000000";
-        Abschlussaufgabe.crc2.fill();
-        for (let i = 0; i < n; i++) {
-            let s = new Abschlussaufgabe.Ski(0, 0, "#0000ff", Math.random() * 2 + 5, Math.random() * 2 + 5);
-            object.push(s);
-            let t = new Abschlussaufgabe.Baum(50 + Math.random() * 170, 200 + Math.random() * 150);
+        for (let i = 0; i < 50; i++) {
+            let t = new Abschlussaufgabe.Baum(Math.random() * 350, Math.random() * 400);
             object.push(t);
-            let w = new Abschlussaufgabe.Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
-            object.push(w);
         }
-        let m = 150;
-        for (let i = 0; i < m; i++) {
-            let sn = new Abschlussaufgabe.Snow(0 + Math.random() * 800, 0 + Math.random() * 600);
-            object.push(sn);
+        for (let i = 0; i < 50; i++) {
+            let t = new Abschlussaufgabe.Baum(350 + Math.random() * 350, Math.random() * 400);
+            object.push(t);
         }
         img = Abschlussaufgabe.crc2.getImageData(0, 0, 800, 600);
         console.log(img);
