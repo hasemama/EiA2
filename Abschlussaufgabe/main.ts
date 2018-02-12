@@ -25,15 +25,32 @@ namespace Abschlussaufgabe {
         //Gras
         crc2.fillStyle = "green";
         crc2.fillRect(0, 200, 800, 400);
-
-
-
-
         //Sonne
         crc2.beginPath();
         crc2.arc(695, 60, 40, 0, 2 * Math.PI);
         crc2.fillStyle = "#FFD700";
         crc2.fill();
+        //
+
+        //Leute
+        crc2.fillStyle = "blue";
+        crc2.fillRect(467, 385, 5, -20);
+        crc2.beginPath();
+        crc2.arc(467 + 2.5, 385 - 20, 7, 0, 2 * Math.PI);
+        crc2.fill();
+        //Baumkronen 
+        crc2.beginPath();
+        crc2.arc(480, 300, 40, 0, 2 * Math.PI);
+        crc2.strokeStyle = "#228B22";
+        crc2.stroke();
+        crc2.fillStyle = "#228B22";
+        crc2.fill();
+
+        //Baumstämme 
+        crc2.fillStyle = "#8B4513";
+        crc2.fillRect(480 - 10, 300 + 39, 20, 50);
+
+
 
 
 
@@ -41,9 +58,8 @@ namespace Abschlussaufgabe {
         for (let i: number = 0; i < 50; i++) {
 
             let t: Baum = new Baum(Math.random() * 350, Math.random() * 400 + 150);
-            object.push(t);
-           
 
+            object.push(t);
         }
 
         for (let i: number = 0; i < n; i++) {
