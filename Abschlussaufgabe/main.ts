@@ -40,18 +40,21 @@ namespace Abschlussaufgabe {
 
         for (let i: number = 0; i < 50; i++) {
 
-            let t: Baum = new Baum(Math.random() * 350, Math.random() * 400);
+            let t: Baum = new Baum(Math.random() * 350, Math.random() * 400 + 150);
             object.push(t);
-            // let w: Wolken = new Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
-            // object.push(w);
+           
 
+        }
+
+        for (let i: number = 0; i < n; i++) {
+            let w: Wolken = new Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
+            object.push(w);
         }
         for (let i: number = 0; i < 50; i++) {
 
-            let t: Baum = new Baum(350 + Math.random() * 350, Math.random() * 400);
+            let t: Baum = new Baum(Math.random() * 250 + 550, Math.random() * 400 + 150);
             object.push(t);
-            // let w: Wolken = new Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
-            // object.push(w);
+
 
         }
 

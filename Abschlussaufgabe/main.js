@@ -26,11 +26,15 @@ var Abschlussaufgabe;
         Abschlussaufgabe.crc2.fillStyle = "#FFD700";
         Abschlussaufgabe.crc2.fill();
         for (let i = 0; i < 50; i++) {
-            let t = new Abschlussaufgabe.Baum(Math.random() * 350, Math.random() * 400);
+            let t = new Abschlussaufgabe.Baum(Math.random() * 350, Math.random() * 400 + 150);
             object.push(t);
         }
+        for (let i = 0; i < n; i++) {
+            let w = new Abschlussaufgabe.Wolken(0 + Math.random() * 800, 0 + Math.random() * 80);
+            object.push(w);
+        }
         for (let i = 0; i < 50; i++) {
-            let t = new Abschlussaufgabe.Baum(350 + Math.random() * 350, Math.random() * 400);
+            let t = new Abschlussaufgabe.Baum(Math.random() * 250 + 550, Math.random() * 400 + 150);
             object.push(t);
         }
         img = Abschlussaufgabe.crc2.getImageData(0, 0, 800, 600);

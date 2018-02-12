@@ -14,7 +14,7 @@ var Abschlussaufgabe;
             Abschlussaufgabe.crc2.fill();
             //Baumst�mme 
             Abschlussaufgabe.crc2.fillStyle = "#8B4513";
-            Abschlussaufgabe.crc2.fillRect(this.x - 10, this.y + 39, 20, 150);
+            Abschlussaufgabe.crc2.fillRect(this.x - 10, this.y + 39, 20, 50);
         }
     }
     Abschlussaufgabe.Baum = Baum;

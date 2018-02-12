@@ -16,7 +16,8 @@ namespace Abschlussaufgabe {
 
             //Baumstämme 
             crc2.fillStyle = "#8B4513";
-            crc2.fillRect(this.x - 10, this.y + 39, 20, 150);
+            crc2.fillRect(this.x - 10, this.y + 39, 20, 50);
+            
         }
     }
 }
