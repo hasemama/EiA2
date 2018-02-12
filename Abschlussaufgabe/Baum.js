@@ -1,22 +1,22 @@
-var aufgabe6;
-(function (aufgabe6) {
-    class Baum extends aufgabe6.MovingObjects {
+var Abschlussaufgabe;
+(function (Abschlussaufgabe) {
+    class Baum extends Abschlussaufgabe.MovingObjects {
         constructor(_x, _y) {
             super(_x, _y);
         }
         draw() {
             //Baumkronen 
-            aufgabe6.crc2.beginPath();
-            aufgabe6.crc2.arc(this.x, this.y, 40, 0, 2 * Math.PI);
-            aufgabe6.crc2.strokeStyle = "#228B22";
-            aufgabe6.crc2.stroke();
-            aufgabe6.crc2.fillStyle = "#228B22";
-            aufgabe6.crc2.fill();
+            Abschlussaufgabe.crc2.beginPath();
+            Abschlussaufgabe.crc2.arc(this.x, this.y, 40, 0, 2 * Math.PI);
+            Abschlussaufgabe.crc2.strokeStyle = "#228B22";
+            Abschlussaufgabe.crc2.stroke();
+            Abschlussaufgabe.crc2.fillStyle = "#228B22";
+            Abschlussaufgabe.crc2.fill();
             //Baumst�mme 
-            aufgabe6.crc2.fillStyle = "#8B4513";
-            aufgabe6.crc2.fillRect(this.x - 10, this.y + 39, 20, 150);
+            Abschlussaufgabe.crc2.fillStyle = "#8B4513";
+            Abschlussaufgabe.crc2.fillRect(this.x - 10, this.y + 39, 20, 150);
         }
     }
-    aufgabe6.Baum = Baum;
-})(aufgabe6 || (aufgabe6 = {}));
+    Abschlussaufgabe.Baum = Baum;
+})(Abschlussaufgabe || (Abschlussaufgabe = {}));
 //# sourceMappingURL=Baum.js.map

@@ -1,14 +1,14 @@
-var aufgabe6;
-(function (aufgabe6) {
-    class Snow extends aufgabe6.MovingObjects {
+var Abschlussaufgabe;
+(function (Abschlussaufgabe) {
+    class Snow extends Abschlussaufgabe.MovingObjects {
         constructor(_x, _y) {
             super(_x, _y);
         }
         draw() {
-            aufgabe6.crc2.fillStyle = "#ffffff";
-            aufgabe6.crc2.beginPath();
-            aufgabe6.crc2.arc(this.x, this.y, 5, 0, 2 * Math.PI);
-            aufgabe6.crc2.fill();
+            Abschlussaufgabe.crc2.fillStyle = "#ffffff";
+            Abschlussaufgabe.crc2.beginPath();
+            Abschlussaufgabe.crc2.arc(this.x, this.y, 5, 0, 2 * Math.PI);
+            Abschlussaufgabe.crc2.fill();
         }
         move() {
             if (this.y > 600) {
@@ -17,6 +17,6 @@ var aufgabe6;
             this.y += Math.random();
         }
     }
-    aufgabe6.Snow = Snow;
-})(aufgabe6 || (aufgabe6 = {}));
+    Abschlussaufgabe.Snow = Snow;
+})(Abschlussaufgabe || (Abschlussaufgabe = {}));
 //# sourceMappingURL=Snow.js.map
