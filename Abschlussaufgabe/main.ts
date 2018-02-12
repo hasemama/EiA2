@@ -5,7 +5,7 @@
 //Hiermit versichere ich, dass ich diesen
 //Code selbst geschrieben habe. Er wurde
 //nicht kopiert und auch nicht diktiert.
-namespace aufgabe6 {
+namespace Abschlussaufgabe {
     window.addEventListener("load", init);
     export let crc2: CanvasRenderingContext2D;
     let img: ImageData;
@@ -21,10 +21,7 @@ namespace aufgabe6 {
         //Himmel
         crc2.fillStyle = "#5CACEE";
         crc2.fillRect(0, 0, 800, 600);
-
-
-
-        //Sonne
+         //Sonne
         crc2.beginPath();
         crc2.arc(695, 60, 40, 0, 2 * Math.PI);
         crc2.fillStyle = "#FFD700";
