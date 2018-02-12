@@ -1,30 +1,30 @@
-var aufgabe6;
-(function (aufgabe6) {
-    class Wolken extends aufgabe6.MovingObjects {
+var Abschlussaufgabe;
+(function (Abschlussaufgabe) {
+    class Wolken extends Abschlussaufgabe.MovingObjects {
         constructor(_x, _y) {
             super(_x, _y);
         }
         draw() {
-            aufgabe6.crc2.beginPath();
-            aufgabe6.crc2.arc(this.x, this.y, 20, 0, 2 * Math.PI);
-            aufgabe6.crc2.fillStyle = "#ffffff";
-            aufgabe6.crc2.fill();
-            aufgabe6.crc2.beginPath();
-            aufgabe6.crc2.arc(this.x - 10, this.y + 10, 20, 0, 2 * Math.PI);
-            aufgabe6.crc2.fillStyle = "#ffffff";
-            aufgabe6.crc2.fill();
-            aufgabe6.crc2.beginPath();
-            aufgabe6.crc2.arc(this.x - 10, this.y - 10, 20, 0, 2 * Math.PI);
-            aufgabe6.crc2.fillStyle = "#ffffff";
-            aufgabe6.crc2.fill();
-            aufgabe6.crc2.beginPath();
-            aufgabe6.crc2.arc(this.x - 25, this.y - 15, 20, 0, 2 * Math.PI);
-            aufgabe6.crc2.fillStyle = "#ffffff";
-            aufgabe6.crc2.fill();
-            aufgabe6.crc2.beginPath();
-            aufgabe6.crc2.arc(this.x - 35, this.y + 5, 20, 0, 2 * Math.PI);
-            aufgabe6.crc2.fillStyle = "#ffffff";
-            aufgabe6.crc2.fill();
+            Abschlussaufgabe.crc2.beginPath();
+            Abschlussaufgabe.crc2.arc(this.x, this.y, 20, 0, 2 * Math.PI);
+            Abschlussaufgabe.crc2.fillStyle = "#ffffff";
+            Abschlussaufgabe.crc2.fill();
+            Abschlussaufgabe.crc2.beginPath();
+            Abschlussaufgabe.crc2.arc(this.x - 10, this.y + 10, 20, 0, 2 * Math.PI);
+            Abschlussaufgabe.crc2.fillStyle = "#ffffff";
+            Abschlussaufgabe.crc2.fill();
+            Abschlussaufgabe.crc2.beginPath();
+            Abschlussaufgabe.crc2.arc(this.x - 10, this.y - 10, 20, 0, 2 * Math.PI);
+            Abschlussaufgabe.crc2.fillStyle = "#ffffff";
+            Abschlussaufgabe.crc2.fill();
+            Abschlussaufgabe.crc2.beginPath();
+            Abschlussaufgabe.crc2.arc(this.x - 25, this.y - 15, 20, 0, 2 * Math.PI);
+            Abschlussaufgabe.crc2.fillStyle = "#ffffff";
+            Abschlussaufgabe.crc2.fill();
+            Abschlussaufgabe.crc2.beginPath();
+            Abschlussaufgabe.crc2.arc(this.x - 35, this.y + 5, 20, 0, 2 * Math.PI);
+            Abschlussaufgabe.crc2.fillStyle = "#ffffff";
+            Abschlussaufgabe.crc2.fill();
         }
         move() {
             if (this.x > 800) {
@@ -33,6 +33,6 @@ var aufgabe6;
             this.x += 1;
         }
     }
-    aufgabe6.Wolken = Wolken;
-})(aufgabe6 || (aufgabe6 = {}));
+    Abschlussaufgabe.Wolken = Wolken;
+})(Abschlussaufgabe || (Abschlussaufgabe = {}));
 //# sourceMappingURL=Wolke.js.map
